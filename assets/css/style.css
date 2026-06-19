@@ -42,3 +42,11 @@ nav ul{
 .hero p{
     margin-top:16px;
 }
+
+.cta-button{
+    padding:16px 32px;
+    background:var(--primary-color);
+    display:inline-flex;
+    color:white;
+    border-radius:12px;
+}
