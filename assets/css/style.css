@@ -101,3 +101,51 @@ nav ul{
 .features > h2{
     font-size: 3rem;
 }
+
+.pricing{
+    max-width:1100px;
+    margin:0 auto;
+    padding:80px 20px;
+}
+
+.pricing h2{
+    font-size:3rem;
+}
+
+.pricing > p{
+    margin-top:16px;
+    font-size:1.25rem;
+    line-height:1.6;
+}
+
+.pricing-list{
+    display:flex;
+    gap:32px;
+    margin-top:48px;
+}
+
+.pricing-card{
+    flex:1;
+    padding:40px 32px;
+    border-radius:16px;
+    box-shadow:0 8px 24px rgba(0,0,0,.08);
+}
+
+.pricing-card h3{
+    font-size:1.25rem;
+    margin-bottom:16px;
+}
+
+.price{
+    margin-bottom:24px;
+}
+
+.price span{
+    font-size:3rem;
+    font-weight:700;
+}
+
+.pricing-card--featured{
+    background:var(--primary-color);
+    color:white;
+}
